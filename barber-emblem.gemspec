@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.version       = "0.1.5"
 
   gem.add_dependency "barber"
-  gem.add_dependency "emblem", ">= 0.1.5"
+  gem.add_dependency "emblem"
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "simplecov"
