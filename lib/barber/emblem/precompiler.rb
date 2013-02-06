@@ -1,8 +1,16 @@
 module Barber
   module Ember
     class Precompiler < Barber::Precompiler
-      def handlebars
-        @ember ||= File.new(File.expand_path("../../javascripts/ember-template-compiler.js", __FILE__))
+      def sources
+        [precompiler, emblem]
+      end
+
+      def emblem
+        @ember ||= File.new(::Emblem::Source.path)
+      end
+
+      def precompile_function
+        "Emblem.precompile"
       end
 
       def precompiler
