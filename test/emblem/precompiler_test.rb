@@ -2,9 +2,10 @@ require 'test_helper'
 
 class EmblemPrecompilerTest < MiniTest::Unit::TestCase
   def test_calls_the_ember_handlebars_precompiler
-    result = compile "Hello {{name}}"
+    result = compile "p Hello"
     assert result
-    assert_match result, /Emblem\.Handlebars/
+    assert_match result, /Handlebars/
+    refute_match result, /Ember/
   end
 
   def test_is_a_precompiler

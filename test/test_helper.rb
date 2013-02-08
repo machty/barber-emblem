@@ -1,7 +1,7 @@
 require 'simplecov'
 SimpleCov.start
 
-require 'barber'
+require 'barber-emblem'
 
 require 'minitest/unit'
 require 'minitest/autorun'
