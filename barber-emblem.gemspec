@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Barber::Emblem::VERSION
 
-  gem.add_dependency "barber"
+  gem.add_dependency "barber", ">= 0.2.1"
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "simplecov"
