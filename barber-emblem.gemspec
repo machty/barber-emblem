@@ -14,9 +14,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Barber::Emblem::VERSION
 
-  gem.add_dependency "barber", ">= 0.4.0"
+  gem.add_dependency "barber", ">= 0.4.1"
   gem.add_dependency "emblem-source"
-  gem.add_dependency "ember-template-compiler-source", ">= 1.0.0.pre4.3"
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "simplecov"
