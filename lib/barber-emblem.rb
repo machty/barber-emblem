@@ -1,5 +1,7 @@
 require "barber"
+require "barber/emblem"
 require "barber/emblem/version"
+require "barber/emblem/shared"
 require "barber/emblem/precompiler"
 require "barber/emblem/precompilers"
 require "barber/emblem/ember_precompiler"
