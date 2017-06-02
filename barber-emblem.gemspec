@@ -14,11 +14,13 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Barber::Emblem::VERSION
 
-  gem.add_dependency "barber", ">= 0.4.1"
-  gem.add_dependency "emblem-source"
+  gem.add_dependency "barber", ">= 0.7.0", "~> 0.11.0"
+  gem.add_dependency "emblem-source", '>= 0.4.0'
 
   gem.add_development_dependency "rake"
+  gem.add_development_dependency "handlebars-source", "< 2"
   gem.add_development_dependency "simplecov"
   gem.add_development_dependency "mocha"
   gem.add_development_dependency "appraisal"
+  gem.add_development_dependency "minitest", ">=5", "< 6"
 end

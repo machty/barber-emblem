@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class EmblemEmberPrecompilersTest < MiniTest::Unit::TestCase
+class EmblemEmberPrecompilersTest < Minitest::Test
   def template ; "hello" ; end
   def compiled_template ; "function()" ; end
 
