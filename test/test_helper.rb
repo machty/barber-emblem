@@ -7,3 +7,4 @@ require 'minitest/unit'
 require 'minitest/autorun'
 
 require 'mocha/mini_test'
+require 'handlebars/source'
