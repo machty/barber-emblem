@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Barber::Emblem::VERSION
 
-  gem.add_dependency "barber", "~> 0.10.0"
+  gem.add_dependency "barber", ">= 0.7.0", "~> 0.11.0"
   gem.add_dependency "emblem-source", '< 0.7.0'
 
   gem.add_development_dependency "rake"
