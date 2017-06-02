@@ -3,6 +3,7 @@ SimpleCov.start
 
 require 'barber-emblem'
 
+require 'minitest'
 require 'minitest/unit'
 require 'minitest/autorun'
 

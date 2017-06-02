@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class EmblemPrecompilerTest < MiniTest::Unit::TestCase
+class EmblemPrecompilerTest < Minitest::Test
   def test_calls_the_ember_handlebars_precompiler
     result = compile "p Hello"
     assert result
